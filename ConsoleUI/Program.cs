@@ -9,19 +9,49 @@ using System.Threading.Tasks;
 
 namespace ConsoleUI
 {
+
+    //SOLID 
+    //Open Closed Principle 
+    //diğer kodları bozmadan kod yazma 
     class Program
+
     {
+
+
+
+
+
+
         static void Main(string[] args)
         {
-            ProductManager productManager = new ProductManager(new EfProductDal());
-            foreach (var product in productManager.GetAllByCategoryId(2))
+            //CategoryTest();
 
-            {
-                Console.WriteLine(product.ProductName);
-                //yorum deneme fdgg dsggdgdsg 
-                //yorum deneme fdgg dsggdgdsg 
-            }
+
+
+            ProductTest();
 
         }
+
+        private static void ProductTest()
+        {
+            ProductManager productManager = new ProductManager(new EfProductDal());
+            foreach (var product in productManager.GetProductDetails())
+
+            {
+                Console.WriteLine(product.productName + "/"+ product.CategoryName);
+                Console.ReadLine();
+
+            }
+        }
     }
-}
+
+    //private static void /*CategoryTest()*/
+    //    {
+    //        CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+    //        foreach (var category in categoryManager.GetAll())
+    //        {
+    //            Console.WriteLine(category.CategoryName);
+    //        }
+    //    }
+    }
+    //}

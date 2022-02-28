@@ -157,9 +157,10 @@
   <ItemGroup>
     <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\ICustomerDal.cs" />
-    <Compile Include="Abstract\IEntityRepository.cs" />
+    <Compile Include="Abstract\IOrderDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfCategoryDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfOrderDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfProductDal.cs" />
     <Compile Include="Concrete\EntityFramework\NorthWindContext.cs" />
     <Compile Include="Concrete\InMemory\InMemoryProductDal.cs" />
@@ -170,6 +171,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{81DFD17A-C613-425B-A8EB-8FF9EF706C6D}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{DA8CE297-6766-4F44-89F7-128A10446BD5}</Project>
       <Name>Entities</Name>

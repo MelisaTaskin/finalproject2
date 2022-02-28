@@ -88,3 +88,7 @@ C:\Users\Melisa\source\repos\FinalProject2\ConsoleUI\bin\Debug\pt-BR\Microsoft.D
 C:\Users\Melisa\source\repos\FinalProject2\ConsoleUI\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Melisa\source\repos\FinalProject2\ConsoleUI\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Melisa\source\repos\FinalProject2\ConsoleUI\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Melisa\source\repos\FinalProject2\ConsoleUI\bin\Debug\Core.dll
+C:\Users\Melisa\source\repos\FinalProject2\ConsoleUI\bin\Debug\Core.pdb
+C:\Users\Melisa\source\repos\FinalProject2\ConsoleUI\bin\Debug\Core.dll.config
+C:\Users\Melisa\source\repos\FinalProject2\ConsoleUI\bin\Debug\Entities.dll.config
